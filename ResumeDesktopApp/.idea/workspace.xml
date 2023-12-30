@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40f23fe4-ce85-4211-9fd4-f09deae1292e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/ResumeDesktopApp-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/config/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/main/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/main/Main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/main/Main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/DetailsPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/DetailsPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/DetailsPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/DetailsPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/HistoryPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/ProfilePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/SkillsPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/SkillsPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/SkillsPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/SkillsPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/SkillsPanel$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/panel/SkillsPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YlpLcvzca78OL9bP5cJDdwt6jz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "resume__desktop__app",
+    "last_opened_file_path": "C:/Users/Umid/Documents/Workspace/AwesomeResume/ResumeDesktopApp/ResumeDbApp",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40f23fe4-ce85-4211-9fd4-f09deae1292e" name="Changes" comment="" />
+      <created>1701109966747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701109966747</updated>
+      <workItem from="1701109967746" duration="4000" />
+      <workItem from="1701602024132" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
