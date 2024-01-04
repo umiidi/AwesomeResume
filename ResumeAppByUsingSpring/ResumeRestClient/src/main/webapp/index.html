@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+
+    <script>
+
+        function printUsers(users) {
+            var container = document.getElementById("container")
+            var containerHtml = ""
+            for (var i = 0; i < users.length; i++) {
+                var user = users[i];
+                var deleteButton = '<button onclick="deleteUser(' + user.id + ')" >DELETE</button>';
+                containerHtml += user.id + " " + user.name + " " + user.surname + " " + deleteButton + "<br>";
+            }
+            container.innerHTML = containerHtml
+        }
+
+        function getUsers() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var response = JSON.parse(this.responseText)
+                    var list = response.object
+                    printUsers(list)
+                }
+            }
+            xhttp.open("GET", "http://localhost:8080/users", true)
+            xhttp.send();
+        }
+
+        function addUser() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    getUsers()
+                }
+            }
+
+            var name = document.getElementById("name").value
+            var surname = document.getElementById("surname").value
+            var phone = document.getElementById("phone").value
+            var email = document.getElementById("email").value
+            var password = document.getElementById("password").value
+
+            var user = {
+                name: name,
+                surname: surname,
+                phone: phone,
+                email: email,
+                password: password
+            }
+            xhttp.open("POST", "http://localhost:8080/users", true)
+            xhttp.setRequestHeader("Content-Type", "application/json")
+            xhttp.send(JSON.stringify(user));
+        }
+
+        function deleteUser(id) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    getUsers()
+                }
+            }
+
+            xhttp.open("DELETE", "http://localhost:8080/users/" + id, true)
+            xhttp.send();
+        }
+    </script>
+</head>
+<body onload="getUsers()">
+<div id="container">
+
+</div>
+
+<div>
+    <h1>Add User Form</h1>
+    <input placeholder="name" type="text" id="name"/> <br>
+    <input placeholder="surname" type="text" id="surname"/> <br>
+    <input placeholder="phone" type="text" id="phone"/> <br>
+    <input placeholder="email" type="email" id="email"/> <br>
+    <input placeholder="password" type="password" id="password"/> <br>
+    <button onclick="addUser()">Add User</button>
+</div>
+</body>
+</html>
